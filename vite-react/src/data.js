@@ -1,29 +1,29 @@
 export const ways = [
   {
-    title: 'Фильтрация информации и технологий.',
+    title: 'Filtering information and technology.',
     description:
-      'Из огромного количества информации и навыков в IT, вы получаете только то, что необходимо и работает.',
+      'From the vast amount of information and skills in the IT field, you get only what is necessary and works.',
   },
   {
-    title: 'Формат обучения.',
+    title: 'Training format.',
     description:
-      'Пока другие предлагают 50 страниц текста и вебинары по 2 часа, мы даем вам тот же объем знаний в одном тщательно подготовленном видео за 15 минут.',
+      'While others offer 50 pages of text and 2-hour webinars, we give you the same amount of knowledge in one carefully produced 15-minute video.',
   },
   {
-    title: 'Применение разных форматов.',
+    title: 'Using different formats.',
     description:
-      'Видео-уроки, практические задания, конспекты, мастер-классы, обсуждения в сообществе — все это дает полноценную картину и ускоряет процесс обучения.',
+      'Video tutorials, practical assignments, notes, master classes, community discussions - all this gives a complete picture and speeds up the learning process.',
   },
   {
-    title: 'Наши преподаватели ведущие специалисты',
+    title: 'Our teachers are leading specialists',
     description:
-      'VK, Avito, Тинькофф, Kaspersky — действующие разработчики с опытом преподавания для большой аудитории.',
+      'VKontakte, Avito, Tinkoff, Kaspersky are active developers with experience teaching to a large audience.',
   },
 ]
 
 export const differences = {
-  way: 'Узконаправленный подход. Учим только фронтенду, поэтому вы получаете именно те знания, за которыми пришли.',
-  easy: 'Доступность обучения. Простыми словами объясняем сложные темы на понятных примерах.',
+  way: 'A narrowly focused approach. We only teach frontend, so you will get exactly the knowledge you came for.',
+  easy: 'Accessibility of training. We explain complex topics in simple terms, using clear examples.',
   program:
-    'Концентрация знаний. Например, модуль «HTML&CSS» даст вам столько же умений и навыков, как и 6 месяцев обучения по этой программе в госуниверситете.',
+    'Concentration of knowledge. For example, the module "HTML&CSS" will give you as many skills and abilities as 6 months of studying in this program at a state university.',
 }
