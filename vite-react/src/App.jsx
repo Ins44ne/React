@@ -5,6 +5,11 @@ import Button from "./components/Button/Button"
 import {ways} from "./data" 
 
 function App() {
+  let content = 'press the button'
+  function handleClick(type){
+    console.log('button clicked', type)
+    content = type
+  }
   return (
     <div>
       <Header/>
@@ -20,9 +25,10 @@ function App() {
         </section>
         <section>
             <h3>How are we different from others</h3>
-            <Button>approach</Button>
-            <Button>accessibility</Button>
-            <Button>concentration</Button>
+            <Button buttonClick={() => handleClick('way')}>approach</Button>
+            <Button buttonClick={() => handleClick('easy')}>accessibility</Button>
+            <Button buttonClick={() => handleClick('program')}>concentration</Button>
+            <p>{content}</p>
         </section>
       </main>
     <Footer/>
