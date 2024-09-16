@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import WayToTeach from "./components/WayToTeach"
+import Button from "./components/Button"
 import {ways} from "./data" 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           </ul>
         </section>
         <section>
-            <h3></h3>
+            <h3>How are we different from others</h3>
+            <Button/>
         </section>
       </main>
     <Footer/>
